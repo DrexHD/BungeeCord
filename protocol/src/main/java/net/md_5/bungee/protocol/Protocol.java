@@ -111,7 +111,8 @@ public enum Protocol
                     map( ProtocolConstants.MINECRAFT_1_8, 0x3A ),
                     map( ProtocolConstants.MINECRAFT_1_9, 0x0E ),
                     map( ProtocolConstants.MINECRAFT_1_13, 0x10 ),
-                    map( ProtocolConstants.MINECRAFT_1_15, 0x11 )
+                    map( ProtocolConstants.MINECRAFT_1_15, 0x11 ),
+                    map( ProtocolConstants.MINECRAFT_1_16_SNAPSHOT_20W06A, 0x12 )
             );
             TO_CLIENT.registerPacket(
                     ScoreboardObjective.class,
