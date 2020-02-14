@@ -10,12 +10,12 @@ import net.md_5.bungee.protocol.DefinedPacket;
 import net.md_5.bungee.protocol.ProtocolConstants;
 
 
-class EntityMap_1_16_SNAPSHOT extends EntityMap
+class EntityMap_1_16_SNAPSHOT_20W06A extends EntityMap
 {
 
-    static final EntityMap_1_16_SNAPSHOT INSTANCE = new EntityMap_1_16_SNAPSHOT();
+    static final EntityMap_1_16_SNAPSHOT_20W06A INSTANCE = new EntityMap_1_16_SNAPSHOT_20W06A();
 
-    EntityMap_1_16_SNAPSHOT()
+    EntityMap_1_16_SNAPSHOT_20W06A()
     {
         addRewrite( 0x00, ProtocolConstants.Direction.TO_CLIENT, true ); // Spawn Object : PacketPlayOutSpawnEntity
         addRewrite( 0x01, ProtocolConstants.Direction.TO_CLIENT, true ); // Spawn Experience Orb : PacketPlayOutSpawnEntityExperienceOrb
