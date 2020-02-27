@@ -57,7 +57,7 @@ public class ServerConnection implements Server
     {
         Preconditions.checkArgument( reason.length == 0, "Server cannot have disconnect reason" );
 
-        ch.close();
+        ch.delayedClose( null );
     }
 
     @Override

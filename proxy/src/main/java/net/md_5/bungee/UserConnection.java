@@ -397,7 +397,7 @@ public final class UserConnection implements ProxiedPlayer
                 getName(), BaseComponent.toLegacyText( reason )
             } );
 
-            ch.close( new Kick( ComponentSerializer.toString( reason ) ) );
+            ch.delayedClose( new Kick( ComponentSerializer.toString( reason ) ) );
 
             if ( server != null )
             {
