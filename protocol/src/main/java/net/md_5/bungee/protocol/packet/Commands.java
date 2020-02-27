@@ -587,7 +587,6 @@ public class Commands extends DefinedPacket
             registerDummy( "minecraft:all_recipes" );
             registerDummy( "minecraft:available_sounds" );
             registerDummy( "minecraft:summonable_entities" );
-            registerDummy( "minecraft:available_biomes" );
         }
 
         private static void registerDummy(String name)
