@@ -30,6 +30,8 @@ public class ProtocolConstants
     public static final int MINECRAFT_1_15_2 = 578;
     public static final int MINECRAFT_1_16_SNAPSHOT_20W06A = 701;
     public static final int MINECRAFT_1_16_SNAPSHOT_20W07A = 702;
+    public static final int MINECRAFT_1_16_SNAPSHOT_20W08A = 703;
+    public static final int MINECRAFT_1_16_SNAPSHOT_20W09A = 704;
     public static final List<String> SUPPORTED_VERSIONS = Arrays.asList(
             "1.8.x",
             "1.9.x",
@@ -39,7 +41,7 @@ public class ProtocolConstants
             "1.13.x",
             "1.14.x",
             "1.15.x",
-            "1.16-Snapshot.20.w.Xx"
+            "1.16"
     );
     public static final List<Integer> SUPPORTED_VERSION_IDS = Arrays.asList(
             ProtocolConstants.MINECRAFT_1_8,
@@ -65,7 +67,9 @@ public class ProtocolConstants
             ProtocolConstants.MINECRAFT_1_15_1,
             ProtocolConstants.MINECRAFT_1_15_2,
             ProtocolConstants.MINECRAFT_1_16_SNAPSHOT_20W06A,
-            ProtocolConstants.MINECRAFT_1_16_SNAPSHOT_20W07A
+            ProtocolConstants.MINECRAFT_1_16_SNAPSHOT_20W07A,
+            ProtocolConstants.MINECRAFT_1_16_SNAPSHOT_20W08A,
+            ProtocolConstants.MINECRAFT_1_16_SNAPSHOT_20W09A
     );
 
     public enum Direction
